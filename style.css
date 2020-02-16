@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 16px;
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+h1 {
+  padding-bottom: 50px;
+}
+
+.header {
+        display: flex;
+        justify-content: start;
+  }
