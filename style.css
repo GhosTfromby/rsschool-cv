@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 24px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  a {
+    color: #1f1f8f;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body > header {
+    border-bottom: 4px solid #000;
+    margin-bottom: 20px;
+  }
+  
+  body > header a {
+    color: #000;
+    font-weight: 600;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 21px;
+  }
+  
+  footer {
+    padding: 20px 0;
+    border-top: 4px solid #000;
+  }
+  
+  .footer_nav {
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  footer nav a {
+    margin-left: 20px;
+  }
+  
+  footer nav img {
+    height: 40px;
+  }
+
+  footer nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .content {
+    width: 600px;
+    margin: auto;
+  }
+
+  .year {
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  main {
+    flex-grow: 1;
+  }
+  
+  main header {
+    display: flex;
+    align-items: center;
+  }
+  
+  main header .about {
+    text-align: left;
+  }
+  
+  main header .contacts ion-icon {
+    margin-bottom: -2px;
+  }
+  
+  main header .contacts {
+    list-style: none;
+    line-height: 26px;
+    text-align: left;
+    padding: 0;
+  }
+  
+  main section h2 {
+    padding-bottom: 15px;
+    background-color: palegreen;
+    margin-bottom: 20px;
+  }
+  
+  main section {
+    margin-bottom: 50px;
+  }
+  
+  main section:last-child {
+    border: 0;
+  }
+  
+  .avatar {
+    border-radius: 50%;
+    width: 75%;
+  }
+  
+  .experience ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .experience li {
+    flex-basis: 33%;
+  }
+
+  .code_example {
+    height: 10%;
+    width: 10%;
+  }
+  
+  .two-columns {
+    columns: 2;
+  }
+  
+  .three-columns {
+    columns: 3;
+  }
+  
+  code {
+    background: #fff9e2;
+    border: 1px solid #f7cb3d;
+    display: block;
+    padding: 20px;
+  }
+  
