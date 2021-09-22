@@ -57,6 +57,15 @@
         <section>
         <h2>Code examples</h2>
             <a href="https://github.com/GhosTfromby" ><img src="./foto/logo-github.svg" class='code_example' alt="github" /></a>
+          <p>function fridayTheThirteenths(start, end) {</p>
+          <p>   end = end || start;</p>
+          <p>    var matches = [];</p>
+          <p>      for (var year = start; year <= end; ++year)</p>
+          <p>       for (var month = 1; month <= 12; ++month)</p>
+          <p>          if (new Date(year, month - 1, 13).getDay() == 5)</p>
+          <p>          matches.push(month + '/13/' + year);</p>
+          <p>   return matches.join(' ');</p>
+          <p>  }</p>
         </section>
         <section>
         <h2>Professional Experience</h2>
